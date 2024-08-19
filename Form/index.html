@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form With JS</title>
+</head>
+<body>
+    <form id="form">
+        <label>Name:</label>
+        <input type="text" id="username" placeholder="Username" required> <br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Email" required> <br><br>
+
+        <label>Age:</label>
+        <input type="number" id="number" placeholder="Age" required> <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label> <br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female" required> <br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label> <br><br>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label><br>
+        
+        <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+        <label for="traveling">Traveling</label><br>
+        
+        <input type="checkbox" id="music" name="hobbies" value="Music">
+        <label for="music">Music</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="user-details"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
